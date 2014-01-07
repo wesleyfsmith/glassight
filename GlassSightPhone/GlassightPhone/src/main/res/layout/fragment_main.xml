@@ -11,6 +11,37 @@
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/tap"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/action_tap"
+        />
+
+    <Button
+            android:id="@+id/left"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/action_swipe_left"
+            />
+
+    <Button
+            android:id="@+id/right"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/action_swipe_right"
+            />
+
+    <Button
+            android:id="@+id/back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/action_back"
+            />
 
 </RelativeLayout>

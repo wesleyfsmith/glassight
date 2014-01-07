@@ -5,4 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+     <!-- Button string names-->
+
+    <string name="action_tap">Tap</string>
+    <string name="action_swipe_left">Left</string>
+    <string name="action_swipe_right">Right</string>
+    <string name="action_back">Back</string>
+
 </resources>
